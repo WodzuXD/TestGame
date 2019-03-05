@@ -12,6 +12,6 @@ EditorBuildSettings:
     path: Assets/_Scenes/Menu.unity
     guid: b58342e745d806847bb09ecc592e2ca7
   - enabled: 1
-    path: Assets/_Scenes/Prolog.unity
+    path: Assets/_Scenes/Gra.unity
     guid: f1b11d6c7b8d2f9479630e019ecbba80
   m_configObjects: {}
