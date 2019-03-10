@@ -9,7 +9,7 @@ public class Gra : MonoBehaviour
     public string name = "Derwan";
     public GameObject[] panel;
 
-    public InputField playername;
+    
 
     void Start()
     {
@@ -31,12 +31,4 @@ public class Gra : MonoBehaviour
     {
         scena = i;
     }
-
-    public void SetName()
-    {
-        if (playername.text != "")
-            name = playername.text;
-        else
-            name = "Derwan";
-    }
-}
+ }
