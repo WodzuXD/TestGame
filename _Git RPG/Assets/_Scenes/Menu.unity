@@ -804,13 +804,14 @@ GameObject:
   m_Component:
   - component: {fileID: 1114259681}
   - component: {fileID: 1114259679}
+  - component: {fileID: 1114259680}
   m_Layer: 0
   m_Name: Muzyka JSM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!82 &1114259679
 AudioSource:
   m_ObjectHideFlags: 0
@@ -821,8 +822,8 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: 13526308ca6c1224fae6e7836162dc82, type: 3}
-  m_PlayOnAwake: 1
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
   Loop: 0
@@ -907,6 +908,23 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1114259680
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1114259678}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 79784423adea7f34194b713725e98204, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  muzykaJSM:
+  - {fileID: 8300000, guid: b7236a2e7fdcd814c951bb63e9f7f111, type: 3}
+  - {fileID: 8300000, guid: 13526308ca6c1224fae6e7836162dc82, type: 3}
+  - {fileID: 8300000, guid: 542673ddc7c49794b83edd0944deb83f, type: 3}
+  gra: 0
 --- !u!4 &1114259681
 Transform:
   m_ObjectHideFlags: 0
@@ -1041,7 +1059,7 @@ AudioSource:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1396422780}
-  m_Enabled: 1
+  m_Enabled: 0
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: d806c77362c550944b8a55eac1c5d7da, type: 3}

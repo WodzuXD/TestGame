@@ -9,13 +9,6 @@ public class Gra : MonoBehaviour
     public string name = "Derwan";
     public GameObject[] panel;
 
-    
-
-    void Start()
-    {
-        
-    }
-
     void Update()
     {
         for (int i = 0; i < panel.Length; i++)
